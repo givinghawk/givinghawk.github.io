@@ -4,22 +4,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8">
-    <meta name="description" content="The main home page for JohnsysRP">
+    <meta name="description" content="The UK Foxes homepage">
     <meta name="keywords" content="gaming, web development, development, developers">
-    <meta name="author" content="Johnsysrp">
-    <title>The reapers csgo team</title>
+    <meta name="author" content="Uk Foxes">
+    <title>UK Foxes Esports</title>
    <link rel="stylesheet" type="text/css" href="style.css">
-   <link href="https://cdn.discordapp.com/attachments/819484127006949397/819574432661241887/okokok.png" rel="shortcut icon" type="image/png" sizes"16x16">
+   <link href="https://cdn.discordapp.com/attachments/879079269358260276/891067311581175868/ukfoxeslogoboxed.png" rel="shortcut icon" type="image/png" sizes"16x16">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script type="text/javascript" src="script.js"></script>
    <style type="text/css" src="style.css"></style>
+   <link href="//db.onlinewebfonts.com/c/2c89eca877ffb0f22a0545301a99e53c?family=Ardela+Edge" rel="stylesheet" type="text/css"/>
+   
+   
    <style>
+       @font-face {font-family: "Ardela Edge";
+    src: url("http://db.onlinewebfonts.com/t/2c89eca877ffb0f22a0545301a99e53c.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/2c89eca877ffb0f22a0545301a99e53c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/2c89eca877ffb0f22a0545301a99e53c.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/2c89eca877ffb0f22a0545301a99e53c.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/2c89eca877ffb0f22a0545301a99e53c.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/2c89eca877ffb0f22a0545301a99e53c.svg#Ardela Edge") format("svg"); /* iOS 4.1- */
+}
+@import url(//db.onlinewebfonts.com/c/2c89eca877ffb0f22a0545301a99e53c?family=Ardela+Edge);
        body {
   
   cursor: context-menu;
-  font: 15px Arial, sans-serif;
+  font-family: Ardela Edge;
   background-color: #121212;
   }
   /* Style all font awesome icons */
@@ -165,7 +177,7 @@ left:0;
 right:0;
 }
 .sticky-wrapper {
-height:65px;
+height:200px;
 }
 nav ul {
 list-style:none;
@@ -275,12 +287,7 @@ background:#00a69a;
   animation: myAnim 1s ease 0s 1 normal forwards;
   }
   
-  img {
-  
-  border-radius: 100px;
-  filter: drop-shadow(100px 0px 0px #000);
-  
-  }
+
   .pfp {
   
   display: block;
@@ -338,39 +345,47 @@ background:#00a69a;
     <header id="home">
         <div class="hero">
           <div class="overlay"></div>
-          <h1>The reapers CS:GO</h1>
+          <div class="blank" align="center"><img src="https://cdn.discordapp.com/attachments/692438595612442704/891037655222067240/ukfoxeslogo.png" alt="logo" align="center"></div>
+          
         </div>
       </header>
       <div class="sticky-wrapper">
+          
       <nav>
         <ul>
+            
           <li><a href="#home">Home</a></li>
           <li><a href="#item1">about</a></li>
           <li><a href="#item2">members</a></li>
           <li><a href="https://givinghawk.github.io/contact.html">contact us</a></li>
           <li><a href="#apply">Apply to join</a></li>
+          <li><a href="#games">Games we play in</a></li>
+          
         </ul>
       </nav>
       </div>
-      <div  id="item1">
-          <h2>About</h2>
-          <p>We are a small csgo team that is just starting out and has only a few players and we just want to get people together to play some csgo!</p>
-      </div>
-      <br>
-      <br>
-      <div id="item2">
-          <h2>Our members</h2>
-      </div>
-      <div id="apply">
-          <h2>Apply to join us</h2>
-      </div>
+      <br><br><br>
+      <div class="blank" align="center"><img src="https://cdn.discordapp.com/attachments/692438595612442704/891037655222067240/ukfoxeslogo.png" alt="logo" align="center" width="300" height="300"></div>
+  
      <br>
      <br>
-     <br>
+     <h2>Contact us</h2>
+     <p>You can contact us using:</p>
+     <a href="https://discord.gg/heedctWJVA"><button>Discord</button></a>
+     <a href="https://tickets.johnsysrp.net/submit"><button>Our ticket system</button></a>
+     <a href=""></a>
+
      <div class="seperate">
       <footer>
-       ©JohnsysRP 2019-2021 All rights reserved
+       ©JohnsysRP 2019-2021 All rights reserved <br>
+       <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
       </footer>
+      <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+        new Crate({
+            server: '885258112859263056', // The Reapers
+            channel: '885258114906079294' // #general
+        })
+    </script>
      </div>
   </body>
 </html>
