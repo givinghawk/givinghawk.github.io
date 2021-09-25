@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="description" content="The UK Foxes homepage">
+    <meta name="keywords" content="gaming, web development, development, developers">
+    <meta name="author" content="Uk Foxes">
+    <title>UK Foxes Esports</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link href="https://cdn.discordapp.com/attachments/879079269358260276/891067311581175868/ukfoxeslogoboxed.png" rel="shortcut icon" type="image/png" sizes"16x16">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script type="text/javascript" src="script.js"></script>
+   <style type="text/css" src="style.css"></style>
+   <link href="//db.onlinewebfonts.com/c/2c89eca877ffb0f22a0545301a99e53c?family=Ardela+Edge" rel="stylesheet" type="text/css"/>
+   
+   
+   <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas, sans-serif;
+}
+
+:root {
+  --bg-color: #031321;
+  --primary-color: #2196f3;
+  --secondary-color: #255784;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff url(https://johnsysrp.net/ukfoxesbgrepeatblured.png) center center/cover repeat ;
+  
+}
+
+.btn {
+  position: relative;
+  display: block;
+  padding: 15px 30px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  text-decoration: none;
+  font-size: 36px;
+  overflow: hidden;
+  transition: 0.2s;
+  background-color: #222222;
+}
+.btn:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  box-shadow: 0 0 20px var(--primary-color), 0 0 80px var(--primary-color),
+    0 0 160px var(--primary-color), 0 0 320px var(--primary-color);
+  transition-delay: 1s;
+}
+
+.btn span {
+  position: absolute;
+  display: block;
+}
+.btn span:nth-child(1) {
+  top: 0;
+  transform: translateX(-115%);
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(1) {
+  transform: translateX(100%);
+  transition: 1s;
+}
+.btn span:nth-child(3) {
+  bottom: 0;
+  transform: translateX(100%);
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(270deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(3) {
+  transform: translateX(-115%);
+  transition: 1s 0.5s;
+}
+.btn span:nth-child(2) {
+  right: 0;
+  transform: translateY(-130%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(2) {
+  transform: translateY(100%);
+  transition: 1s 0.25s;
+}
+.btn span:nth-child(4) {
+  left: 0;
+  transform: translateY(100%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--primary-color));
+}
+.btn:hover span:nth-child(4) {
+  transform: translateY(-130%);
+  transition: 1s 0.75s;
+}
+
+   </style>
+</head>
+<body>
+    <a href="https://discord.gg/heedctWJVA" class="btn">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Join The <img src="https://cdn.discordapp.com/attachments/879079269358260276/891067311581175868/ukfoxeslogoboxed.png" alt="UK Foxes" width="35" height="35"> Discord server
+      </a>
+</body>
+</html>
